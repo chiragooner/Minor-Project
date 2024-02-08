@@ -1,2 +1,0 @@
-My project
-Hello World
