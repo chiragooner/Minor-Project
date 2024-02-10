@@ -10,6 +10,5 @@
 *.run.xml
 *.synctex.gz
 *.toc
-*.bib
 *.fdb_latexmk
 *.fls
