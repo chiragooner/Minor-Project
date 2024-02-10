@@ -1,0 +1,55 @@
+\begin{thebibliography}{1}
+
+\bibitem{adeel2019lip}
+Ahsan Adeel, Mandar Gogate, Amir Hussain, and William~M Whitmer.
+\newblock Lip-reading driven deep learning approach for speech enhancement.
+\newblock {\em IEEE Transactions on Emerging Topics in Computational
+  Intelligence}, 5(3):481--490, 2019.
+
+\bibitem{almajai2016improved}
+Ibrahim Almajai, Stephen Cox, Richard Harvey, and Yuxuan Lan.
+\newblock Improved speaker independent lip reading using speaker adaptive
+  training and deep neural networks.
+\newblock In {\em 2016 IEEE International Conference on Acoustics, Speech and
+  Signal Processing (ICASSP)}, pages 2722--2726. IEEE, 2016.
+
+\bibitem{assael2016lipnet}
+Yannis~M Assael, Brendan Shillingford, Shimon Whiteson, and Nando De~Freitas.
+\newblock Lipnet: End-to-end sentence-level lipreading.
+\newblock {\em arXiv preprint arXiv:1611.01599}, 2016.
+
+\bibitem{el2023developing}
+Randa El-Bialy, Daqing Chen, Souheil Fenghour, Walid Hussein, Perry Xiao,
+  Omar~H Karam, and Bo~Li.
+\newblock Developing phoneme-based lip-reading sentences system for silent
+  speech recognition.
+\newblock {\em CAAI Transactions on Intelligence Technology}, 8(1):129--138,
+  2023.
+
+\bibitem{gutierrez2017lip}
+Abiel Gutierrez and Z~Robert.
+\newblock Lip reading word classification.
+\newblock {\em Comput Vision-ACCV}, 2017.
+
+\bibitem{hao2020survey}
+Mingfeng Hao, Mutallip Mamut, Nurbiya Yadikar, Alimjan Aysa, and Kurban Ubul.
+\newblock A survey of research on lipreading technology.
+\newblock {\em IEEE Access}, 8:204518--204544, 2020.
+
+\bibitem{li2023improving}
+Dengshi Li, Yu~Gao, Chenyi Zhu, Qianrui Wang, and Ruoxi Wang.
+\newblock Improving speech recognition performance in noisy environments by
+  enhancing lip reading accuracy.
+\newblock {\em Sensors}, 23(4):2053, 2023.
+
+\bibitem{miled2023lip}
+Malek Miled, Mohammed Anouar~Ben Messaoud, and Aicha Bouzid.
+\newblock Lip reading of words with lip segmentation and deep learning.
+\newblock {\em Multimedia Tools and Applications}, 82(1):551--571, 2023.
+
+\bibitem{zhang2023research}
+Gaoyan Zhang and Yuanyao Lu.
+\newblock Research on a lip reading algorithm based on efficient-ghostnet.
+\newblock {\em Electronics}, 12(5):1151, 2023.
+
+\end{thebibliography}
