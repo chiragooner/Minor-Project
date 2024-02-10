@@ -1,0 +1,1 @@
+Finalized and accepted proposal document submitted for the Lip Reading project.
