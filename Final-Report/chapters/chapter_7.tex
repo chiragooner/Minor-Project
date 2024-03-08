@@ -1,0 +1,18 @@
+	\chapter{Conclusion}
+
+        In conclusion, this Lip-reading project explores a method of deciphering the speaker's words through lip movements without using any audio for processing. We found a way to recognize lip movements and generate its equivalent text with accuracy close to the actual spoken words. Looking forward, our projects aims to contribute towards making lip-reading accessible to those with hearing disabilities as well as mute people. Besides this, the model can be used to decode a person's speech when they are speaking in noisy environments.
+        
+
+\subsection*{Limitation of our Model}
+\begin{enumerate}
+    \item Only works with videos with resolution of 360*288 pixels.
+    \item Videos should have certain framing such that lip can be segmented properly.
+    \item Works on videos of exactly 25fps.
+
+\end{enumerate}
+\subsection*{Challenges Faced}
+\begin{enumerate}
+    \item  There are huge variable of data with speaker speaking different words so to choose different speakers with similar words for training was difficult.
+    \item Processing video is GPU intensive work so capable hardware was hard to come-by.
+    \item The letter classing of some words are similar so its was hard for model to recognize those words. Eg: 'b' and 'p' have similar lip movements.
+\end{enumerate}

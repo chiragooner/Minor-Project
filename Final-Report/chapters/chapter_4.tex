@@ -1,0 +1,97 @@
+      \chapter{Requirement Analysis}
+      \section{Hardware and Software Requirements}
+	\subsection{Software Requirements}
+ 	\subsubsection{Python and Deep Learning}
+We used Python as our programming language for this project. Python is a high-level general-purpose computer programming language often used to build websites and software, automate tasks, and conduct data analysis. It is simple, free, easy to use and highly compatible language consisting of a lot of libraries as well as built-in data structures. Having better library ecosystem, better visualization options, platform independence,and it is well known simplicity, consistency and flexibility, Python has proven itself to be one of the best picks for Artificial Intelligence and Machine Learning. Machine learning is a branch of Artificial Intelligence, where we start with an image and extract it’s salient features. Then we created a model that describes or predicts the object on the basis of those features. On the other hand, for Deep Learning, we skip the manual step of extracting the features from the object and directly feed the images into a Deep Learning Algorithm, which then predicts the object. Deep Learning can be used to eliminate the limitations of Machine Learning since it makes it easier to handle complex problems as well as helps us predict through huge amount of data with ease too. Thus, Deep learning is a subset of machine learning which provides the ability to machine to perform human-like tasks without human involvement. It provides the ability to an AI agent to mimic the human brain. Deep learning can use both supervised and unsupervised learning to train an AI agent. Here we utilized technique of Deep Learning and concepts of computerized neural networks using Python for the completion for this project. It serves as the primary programming language for lip reading project, providing a flexible and easy-to-read syntax.
+
+
+\subsubsection{OpenCV}
+OpenCV is an open-source computer vision library that provides a wide range of tools and functions for image and video processing. In our lip-reading project, we use OpenCV to capture and process video frames, apply image preprocessing techniques (such as resizing, filtering, and normalization), and extract relevant features from lip movements such as color or shape information. It also converts the preprocessed frames into a format suitable for input to a PyTorch model.
+\newpage
+\subsubsection{Tensorflow}
+TensorFlow, an open-source machine learning framework from Google, empowers developers with a versatile platform for building and deploying artificial intelligence models. Developed by the Google Brain team, it excels in flexibility and scalability. Using a symbolic math library, TensorFlow efficiently defines and trains neural networks, making it a pivotal tool in diverse applications, spanning research to production. Its extensive community support and ecosystem contribute to its popularity, enabling the seamless integration of machine learning into various domains.
+
+\subsubsection{Keras}
+Keras is a high-level, deep learning API developed by Google for implementing neural networks. It is written in Python and is used to make the implementation of neural networks easy. It also supports multiple backend neural network computation. Meant to be relatively easy to learn, Keras is embedded in TensorFlow and can be used to perform deep learning fast as it provides inbuilt modules for all neural network computations. At the same time, computation involving tensors, computation graphs, sessions, etc can be custom made using the Tensorflow Core API.
+
+\subsubsection{Matplotlib}
+Matplotlib is a plotting library for Python that allows  to create a variety of static, animated, and interactive visualizations. In  lip reading project, Matplotlib can be used for visualizing different aspects of  data and results. For example, we use it to plot training/validation curves, display video frames with overlaid predictions, or create graphs to illustrate the performance of the lip reading model. The Matplotlib is used to visualize the training/validation loss curves during model training.By combining these tools, we can create a comprehensive lip reading system that leverage computer vision, deep learning and visualization to understand and interpret lip movements from video data.
+\subsubsection{NumPy}
+NumPy, a vital Python library, empowers numerical computing with high-performance arrays and mathematical functions. Essential for data manipulation and analysis, it underpins diverse scientific and engineering applications. NumPy's array-oriented operations facilitate efficient tasks such as linear algebra and statistics. Its optimized performance and seamless integration make it a cornerstone in the data science landscape, supporting numerous libraries and frameworks.
+\subsubsection{Imageio}
+Imageio, a lightweight Python library, simplifies image input and output operations. With a focus on simplicity and efficiency, Imageio supports reading and writing various image formats. Its user-friendly interface and broad compatibility make it a valuable tool for handling image data in diverse applications, from scientific research to multimedia development.
+
+\section{Functional and Non-Functional Requirements}
+\subsection{Functional Requirements}
+\begin{enumerate}
+\item \textbf{Pre-processing:}
+\begin{itemize}
+\item Identify and track the face in the video sequence
+\item Extract the region of interest (ROI) containing the lips.
+ 
+
+\end{itemize}
+\item  \textbf{Feature Extraction:}
+\begin{itemize}
+\item Extract the region of interest i.e lips using static slicing function.
+
+
+
+\end{itemize}
+\item \textbf{Words Recognition}
+\begin{itemize}
+\item Based on the extracted features, classify the visual information into corresponding words.
+\item Employ deep learning models trained on large lip-to-words datasets.
+
+
+% \end{itemize}
+% \item \textbf{Sentence Formation}
+% \begin{itemize}
+% \item Combine the recognized phonemes into complete words and sentences using language models. 
+% \item Consider contextual information to resolve ambiguities and improve accuracy.
+
+
+\end{itemize}
+
+
+\end{enumerate}
+\subsection{Non-Functional Requirements}
+\begin{enumerate}
+\item \textbf{Accuracy}
+\begin{itemize}
+\item The system should achieve a high level of accuracy in translating lip movements to phonemes and subsequently to words and sentences.  
+\item Specify a target accuracy percentage based on existing benchmarks or project goals. 
+
+
+\end{itemize}
+\item \textbf{Real-time performance}
+\begin{itemize}
+\item The system should process and translate visual information with minimal latency, ideally in real-time.  
+\item Define an acceptable delay threshold for lip-to-text conversion. 
+
+
+% %\end{itemize}
+% \item \textbf{Robustness}
+% \begin{itemize}
+% \item The system should perform well under varying conditions, including different lighting, facial expressions, and speakers.   
+% \item Specify the range of scenarios you want the system to handle efficiently. 
+
+
+\end{itemize}
+\item \textbf{User Interface}
+\begin{itemize}
+\item The system should have a user-friendly interface for capturing video, displaying results, and interacting with the system.   
+\item The system should have a user-friendly interface for capturing video, displaying results, and interacting with the system. 
+
+
+\end{itemize}
+
+\item \textbf{Resource Efficiency}
+\begin{itemize}
+\item The system should be able to run efficiently on available hardware resources, without excessive memory or processing power requirements.    
+\item Optimize the model and algorithms to minimize resource utilization without compromising accuracy.
+
+
+\end{itemize}
+
+\end{enumerate}
